@@ -271,20 +271,11 @@ input {
 	position: relative;
 }
 
-.imgright{
-	position: relative;
-	display: flex;
-	align-items: flex-end;
-}
 .imgright img {
 	width: 40%;
 	position: relative;
 	top: 150px;
-	/* left: 350px; */
-	/* 改 */
-	position: absolute;
-	top: 200px;
-	right: 20px;
+	left: 350px;
 
 }
 
@@ -292,13 +283,9 @@ input {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	color: rgb(60, 60, 60);
 	position: relative;
-	/* left: 0px; */
+	left: 0px;
 	top: 100px;
-	/* right: 500px; */
-	/* 改 */
-	position: absolute;
-	right: 50px;
-
+	right: 500px;
 }
 
 .imgleft img {
@@ -310,11 +297,10 @@ input {
 
 .third456 {
 	position: relative;
-	/* top: 400px; */
+	top: 400px;
 	color: rgb(60, 60, 60);
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	right: 200px;
-	bottom:350px;
 }
 
 /* .imgfancy {
@@ -465,12 +451,7 @@ svg {
 	#third {
 		overflow: hidden;
 	}
-	/*  */
 
-	/* .imgleft{
-		width: 100%;
-	} */
-	/*  */
 	.imgleft img {
 		width: 250px;
 		left: 40px;
@@ -479,16 +460,14 @@ svg {
 
 	.imgright img {
 		width: 150px;
-		/* left: 0px; */
-		top: 850px
+		left: 0px;
+		top: 650px
 	}
 
-	.imgleft .imgright-1 {
+	.imgright .imgright-1 {
 		width: 100px;
 		font-size: 18px;
 		top: 150px;
-		right: auto;
-		left: 250px;
 	}
 
 	.third456 {
