@@ -1,31 +1,30 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 html,
 body {
-  width: 100%;
-  height: 100%;
-
+    width: 100%;
+    height: 100%;
 }
 
 .topbanner {
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
 }
-.mask{
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left:0;
-  height: 100%;
-  background-color: #4c4c4c71;
+.mask {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #4c4c4c71;
 }
 
 /* .video {
@@ -34,51 +33,50 @@ body {
 
 } */
 video {
-  position: absolute;
-  min-width: 100vw;
-  height: 100%;
-  min-height: 950px;
- }
+    position: absolute;
+    min-width: 100vw;
+    height: 100%;
+    min-height: 950px;
+}
 
 #header {
-  background-color: rgba(232, 232, 232, 0.617);
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: fixed;
-  z-index: 1;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(232, 232, 232, 0.617);
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .top-bar {
-  display: flex;
-  list-style: none;
-  float: right;
-  margin: auto;
-  padding-left: 0;
+    display: flex;
+    list-style: none;
+    float: right;
+    margin: auto;
+    padding-left: 0;
 }
 
 .top-bar li {
-  padding: 10px 50px;
-  margin: 10;
-  
-  left: 100%;
+    padding: 10px 50px;
+    margin: 10;
+
+    left: 100%;
 }
 
 .top-bar a {
-  color: #3c3c3c;
-  
+    color: #3c3c3c;
 }
-.btn123{
-  position: relative;
-  top:30px;
-  left:30px;
-  display: none;
+.btn123 {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    display: none;
 }
 
 .second-banner {
-  text-align: center;
-  padding: 200px 200px
+    text-align: center;
+    padding: 200px 200px;
 }
 
 /* .line-down{
@@ -89,232 +87,226 @@ video {
   border-top: solid #949494 1px
 } */
 .second-banner h4 {
-  margin-bottom: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .second-banner h1 {
-  margin-bottom: 50px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .second-banner p {
-  margin-bottom: 20px;
-
+    margin-bottom: 20px;
 }
 
 /* bug按鈕間距問題 */
 .second-banner input {
-  margin-bottom: px;
+    margin-bottom: px;
 }
 
 input {
-  padding: 3px 15px;
-  background-color: rgb(255, 255, 255);
-  border-width: 1px;
-  border-color: #000;
+    padding: 3px 15px;
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-color: #000;
 }
-.money{
-  font-size: 20px;
-  padding-top: 18px;
+.money {
+    font-size: 20px;
+    padding-top: 18px;
 }
-#third{
-  overflow: hidden;
+#third {
+    overflow: hidden;
 }
 /* 輪播牆 */
 .carousel-control-next {
-  border: none;
-  background: none;
+    border: none;
+    background: none;
 }
 
 .carousel-control-prev {
-  border: none;
-  background: none;
+    border: none;
+    background: none;
 }
 
 .carousel {
-  height: 850px;
+    height: 850px;
 }
 
 .carousel-item {
-  height: 100%;
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .carousel-inner {
-  height: 100%;
+    height: 100%;
 }
 
 .carousel-item:nth-child(1) {
-  background-image: url('/image/banner-2.jpg');
+    background-image: url("./image/banner-2.jpg");
 }
 
 .carousel-item:nth-child(2) {
-  background-image: url('/image/banner-3.jpg');
+    background-image: url("./image/banner-3.jpg");
 }
 
-.productsbox+.productsbox {
-  /* border-left:1px solid rgb(255, 255, 255); */
+.productsbox + .productsbox {
+    /* border-left:1px solid rgb(255, 255, 255); */
 }
 
 .productsbox {
-  padding: 30px;
-  text-align: center;
-
+    padding: 30px;
+    text-align: center;
 }
 
 .products {
-  border-top: 1px solid rgb(255, 255, 255);
-  padding: 60px 60px;
-  /* border-bottom: 1px solid rgb(255, 255, 255);; */
-  /* 黑白kiki背景 */
-  min-height: 100vh;
-  width: 100%;
-  background-image: url(/image/4-1.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  /* 調背景位置 */
-  background-position: 20% 80%;
-  background-size: cover;
-
+    border-top: 1px solid rgb(255, 255, 255);
+    padding: 60px 60px;
+    /* border-bottom: 1px solid rgb(255, 255, 255);; */
+    /* 黑白kiki背景 */
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./image/4-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* 調背景位置 */
+    background-position: 20% 80%;
+    background-size: cover;
 }
 
 .products123 {
-  display: flex;
+    display: flex;
 }
 
 .products h4 {
-  margin: 20px;
-  margin-bottom: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: rgb(232, 236, 240);
-
+    margin: 20px;
+    margin-bottom: 0;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: rgb(232, 236, 240);
 }
 
 .products p {
-  color: rgb(232, 236, 240);
+    color: rgb(232, 236, 240);
 }
 
 .cardline-down {
-  border-top: solid rgb(232, 236, 240) 1px;
-  width: 95%;
-  margin: auto;
-  position: relative;
-  top: 50px;
-
+    border-top: solid rgb(232, 236, 240) 1px;
+    width: 95%;
+    margin: auto;
+    position: relative;
+    top: 50px;
 }
 
 .carddown-Character {
-  color: rgb(219, 221, 223);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  margin: 70px;
-  text-align: center;
+    color: rgb(219, 221, 223);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin: 70px;
+    text-align: center;
 }
 
 /* 卡片灰色色塊 */
 .ssawimg {
-  position: relative;
+    position: relative;
 }
 
 .ssawimg:before {
-  margin: auto;
-  content: '';
-  display: block;
-  width: 90%;
-  height: 0%;
-  background-color: rgba(191, 191, 191, 0.551);
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+    margin: auto;
+    content: "";
+    display: block;
+    width: 90%;
+    height: 0%;
+    background-color: rgba(191, 191, 191, 0.551);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .ssawimg:hover:after {
-  height: 100%;
-  transition-duration: .5s;
+    height: 100%;
+    transition-duration: 0.5s;
 }
 
-.ssawimg::before {}
+.ssawimg::before {
+}
 
 .ssawimg .money {
-  position: absolute;
-  top: 200px;
-  left: 0;
-  right: 0;
-  width: 70px;
-  height: 20px;
-  margin: auto;
-  opacity: 0;
-  transition-duration: .5s;
-  bottom: 0px;
-  
-  border-width: 1px;
-  border-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 70px;
+    height: 20px;
+    margin: auto;
+    opacity: 0;
+    transition-duration: 0.5s;
+    bottom: 0px;
+
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
 }
 
 .ssawimg:hover .money {
-  opacity: 1;
+    opacity: 1;
 }
 
 .ssawimg:hover:before {
-  height: 100%;
-  transition-duration: .5s;
+    height: 100%;
+    transition-duration: 0.5s;
 }
 
 /* 水泥背景 */
 .third-2 {
-  height: 1500px;
-  width: 100%;
-  background-image: url(/image/水泥牆面.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  /* background-position: ; */
-  background-size: cover;
-
+    height: 1500px;
+    width: 100%;
+    background-image: url(./image/水泥牆面.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: ; */
+    background-size: cover;
 }
 
 .third-2 {
-  display: flex;
-  position: relative;
-  overflow: hidden;
+    display: flex;
+    position: relative;
+    overflow: hidden;
 }
 
 /* 第三層 */
 #third {
-  position: relative;
+    position: relative;
 }
 
 .imgright img {
-  width: 40%;
-  position: relative;
-  top: 150px;
-  left:350px;
-
+    width: 40%;
+    position: relative;
+    top: 150px;
+    left: 350px;
 }
 
 .imgright-1 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: rgb(60, 60, 60);
-  position: relative;
-  left: 0px;
-  top: 100px;
-  right: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: rgb(60, 60, 60);
+    position: relative;
+    left: 0px;
+    top: 100px;
+    right: 500px;
 }
 
 .imgleft img {
-  width: 50%;
-  position: relative;
-  left: 100px;
-  top: 400px;
+    width: 50%;
+    position: relative;
+    left: 100px;
+    top: 400px;
 }
-.third456{
-  position: relative;
-  top: 400px;
-  color: rgb(60, 60, 60);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  right: 200px;
+.third456 {
+    position: relative;
+    top: 400px;
+    color: rgb(60, 60, 60);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    right: 200px;
 }
 
 /* .imgfancy {
@@ -331,89 +323,86 @@ input {
   right: 1000px;
 } */
 .svgbox svg {
-  width: 100%;
+    width: 100%;
 }
 
 .svgbox {
-  position: absolute;
-  width: 100%;
-  top: 50px;
-  left: 100px;
-  /* left: 10px; */
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: 100px;
+    /* left: 10px; */
 }
 
 @keyframes dash {
-  to {
-    stroke-dashoffset: -1200;
-  }
+    to {
+        stroke-dashoffset: -1200;
+    }
 }
 
 @keyframes fade {
-  0% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 1;
+    }
 
-  20% {
-    opacity: 0;
-  }
+    20% {
+        opacity: 0;
+    }
 }
 
 svg {
-  margin: 0 -1rem;
+    margin: 0 -1rem;
 }
 
 .ekg {
-  opacity: 1;
-  stroke-dasharray: 600;
-  animation: dash 1.5s linear forwards infinite reverse, fade 1.5s linear infinite reverse;
+    opacity: 1;
+    stroke-dasharray: 600;
+    animation: dash 1.5s linear forwards infinite reverse,
+        fade 1.5s linear infinite reverse;
 }
 
 .st0 {
-  fill: none;
-  stroke: #FFFFFF;
-  stroke-width: 0.6258;
-  stroke-miterlimit: 10;
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 0.6258;
+    stroke-miterlimit: 10;
 }
 
 /* 最後區塊底圖 */
 .bottomdown {
-  background-image: url(/image/shadow-overlay-effect-shadows-from-tree-leaves-tropical-branches-white-wall-sunlight_90380-1574.jpg);
-  width: 100%;
-  height: 150px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  /* background-position: ; */
-  background-size: cover;
+    background-image: url.(
+        /
+            image/shadow-overlay-effect-shadows-from-tree-leaves-tropical-branches-white-wall-sunlight_90380-1574.jpg
+    );
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: ; */
+    background-size: cover;
 }
-.bottomdown h5{
- color: #686868;
-  text-align: center;
-  padding: 40px;
-
+.bottomdown h5 {
+    color: #686868;
+    text-align: center;
+    padding: 40px;
 }
-.copyright{
-  color: #686868;
-  text-align: center;
-  position: relative;
-  bottom: 20px;
+.copyright {
+    color: #686868;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
 }
-
 
 /* RWD */
 @media only screen and (max-width: 768px) {
+    .topbanner {
+    }
+    .video {
+        position: absolute;
+        width: 400%;
+    }
 
-  
-.topbanner{
-  
- 
-}
-.video{
-  position: absolute;
-  width: 400%;
-  
-}
-
-/* .video iframe {
+    /* .video iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -428,105 +417,99 @@ svg {
   height: 100%;
 } */
 
-  .top-bar {
-    padding-left: 20px;
-    display: block;
-    transform: translateX(-100%);
-    width: 100%;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.703);
-    width: 180px;
-    padding-top: 40px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-  .top-bar li{
-    font-size: medium;
-    padding: 0;
-    text-align: left;
-    margin: 10px;
+    .top-bar {
+        padding-left: 20px;
+        display: block;
+        transform: translateX(-100%);
+        width: 100%;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.703);
+        width: 180px;
+        padding-top: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+    .top-bar li {
+        font-size: medium;
+        padding: 0;
+        text-align: left;
+        margin: 10px;
+    }
+    .top-bar.on {
+        transform: translateX(0);
+    }
 
-  }
-  .top-bar.on {
-    transform: translateX(0);
-  }
+    .btn {
+        position: absolute;
+        top: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 5px;
+        border-color: rgb(36, 36, 36);
+    }
 
-  .btn {
-    position: absolute;
-    top: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 5px;
-    border-color:rgb(36, 36, 36);
-  }
+    #header {
+        background-color: transparent;
+    }
+    .second-banner {
+        padding: 10px;
+        margin: 20px;
+    }
+    /* 隱藏因為svg位置產生的右邊空白問題 */
+    #third {
+        overflow: hidden;
+    }
+    .imgleft img {
+        width: 250px;
+        left: 40px;
+        top: 300px;
+    }
+    .imgright img {
+        width: 150px;
+        left: 0px;
+        top: 650px;
+    }
+    .imgright .imgright-1 {
+        width: 100px;
+        font-size: 18px;
+        top: 150px;
+    }
+    .third456 {
+        font-size: 18px;
+    }
+    .svgbox {
+        top: 700px;
+    }
+    .products123 {
+        display: block;
+        flex-direction: column;
+    }
+    .carousel {
+        height: 300px;
+    }
+    .cardline-down {
+        text-align: center;
+        top: 0;
+    }
+    .carddown-Character {
+        margin: 50px 0 0;
+    }
 
-  #header {
-    background-color: transparent;
-  }
-  .second-banner{
-    padding: 10px;
-    margin: 20px;
-  }
-  /* 隱藏因為svg位置產生的右邊空白問題 */
-  #third{
-    overflow: hidden;
-  }
-  .imgleft img{
-    width: 250px;
-    left:40px;
-    top: 300px;
-}
-  .imgright img{ 
-    width: 150px;
-    left: 0px;
-    top:650px;
-   
-    
-  }
-  .imgright .imgright-1{
-    width: 100px;
-    font-size: 18px;
-    top:150px;
-    
-  }
-  .third456{
-  font-size: 18px;
-  }
-  .svgbox{
-  top:700px;
-  
-  }
-  .products123{
-  display: block;
-  flex-direction: column;
-}
-.carousel{
-  height: 300px;
-}
-.cardline-down{
-  text-align: center;
-  top: 0;
-}
-.carddown-Character{
-  margin: 50px 0 0 ;
-}
-
-
-.bottomdown h5{
-  font-size: 5px;
-}
-.copyright{
- font-size: px;
- bottom: 40px;
-}
-.bottomdown{
-height: 120px;
-}
-.btn123{
-  display: block;
-  background-color: #3c3c3c00;
-  border-style:none;
-}
-.money{
-  font-size: 20px;
-  padding-top: 15px;
-}
+    .bottomdown h5 {
+        font-size: 5px;
+    }
+    .copyright {
+        font-size: px;
+        bottom: 40px;
+    }
+    .bottomdown {
+        height: 120px;
+    }
+    .btn123 {
+        display: block;
+        background-color: #3c3c3c00;
+        border-style: none;
+    }
+    .money {
+        font-size: 20px;
+        padding-top: 15px;
+    }
 }
